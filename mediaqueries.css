@@ -3,7 +3,7 @@
         height: 83vh;
         margin: 6rem;
     }
-    #about-details-container {
+    #about-container {
         flex-wrap: wrap;
     }
 }
@@ -16,33 +16,46 @@
     #hamburger-nav {
         display: flex;
     }
-    #experience, .experience-details-container {
+    #experience, 
+    .experience-details-container {
         margin-top: 2rem;
     }
-    #profile, .section-container {
+    #profile {
         display: block;
+
     }
+
+
+
+    #about {
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
     .arrow {
         display: none;
     }
     section, .section-container {
         height: fit-content;
+        flex-wrap: wrap;
     }
     section {
         margin: 0 5%;
     }
     .section_pic-container {
-        width: 275px;
-        height: 275px;
+        width: 350px;
+        height: 350px;
         margin: 0 auto 2rem;
         justify-content: center;
     }
-    .about-details-container{
-        margin-top: 0;
-
+    .about-details-container {
+        margin-top: 2rem;
     }
 
-    
+    .about-pic {
+        margin-top: 0.5rem;
+    }
+
 
 }
 
@@ -65,7 +78,8 @@
         flex-wrap: wrap;
     }
     .contact-info-container {
-        margin: 0;
+        margin: 0.5rem;
+        
     }
     .contact-info-container p, .nav-links li a {
         font-size: 1rem;
@@ -82,7 +96,7 @@
         text-align: center;
     }
     .section_pic-container {
-        width: auto;
+        width: 46vw;
         height: 46vw;
         justify-content: center;
     }
