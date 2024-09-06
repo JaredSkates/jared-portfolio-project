@@ -109,4 +109,12 @@
     .text-container {
         text-align: justify;
     }
+
+    .about-details-container {
+        margin-top: 4rem;
+    }
+
+    .about-pic {
+        margin-top: 0.5rem;
+    }
 }
