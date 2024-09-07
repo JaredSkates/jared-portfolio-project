@@ -23,13 +23,18 @@
         top: -25px;
     }
 
+    .profile-pic {
+        height: 230px;
+        top: -90px;
+        justify-content: center;
+    }
+
     #experience, 
     .experience-details-container {
         margin-top: 2rem;
     }
     #profile {
         display: block;
-
     }
 
     #about {
