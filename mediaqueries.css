@@ -16,6 +16,13 @@
     #hamburger-nav {
         display: flex;
     }
+
+    .k {
+        /* k is a class within the profile section that allows us to target the profile contents only */
+        position: relative;
+        top: -25px;
+    }
+
     #experience, 
     .experience-details-container {
         margin-top: 2rem;
@@ -24,8 +31,6 @@
         display: block;
 
     }
-
-
 
     #about {
         justify-content: space-between;
@@ -49,7 +54,7 @@
         justify-content: center;
     }
     .about-details-container {
-        margin-top: 2rem;
+        margin-top: 3rem;
     }
 
     .about-pic {
@@ -79,6 +84,7 @@
     }
     .contact-info-container {
         margin: 0.5rem;
+        flex-direction: column;
         
     }
     .contact-info-container p, .nav-links li a {
@@ -110,11 +116,10 @@
         text-align: justify;
     }
 
-    .about-details-container {
-        margin-top: 4rem;
+    .about-pic {
+        width: auto;
+        height: 270px;
+        margin-top: 2rem;
     }
 
-    .about-pic {
-        margin-top: 0.5rem;
-    }
 }
