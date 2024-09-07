@@ -24,7 +24,8 @@
     }
 
     .profile-pic {
-        height: 230px;
+        display: flex;
+        height: 115%;
         top: -90px;
         justify-content: center;
     }
@@ -89,6 +90,11 @@
         height: 81vh;
         margin-bottom: 0;
     }
+
+    .profile-pic {
+        height: 130%;
+    }
+
     article {
         font-size: 1rem;
         width: 90%; /* Adjust the width for small screens */
