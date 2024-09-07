@@ -351,34 +351,34 @@ section {
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
-    justify-content: center;
-    display: flex;
+    text-align: center; /* Center the sub-title */
 }
 
 .experience-details-container {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: center; /* Center the content */
+    align-items: center;     /* Vertically center the items */
+    flex-direction: column;  /* Stack the child elements */
 }
 
 .article-container {
     display: flex;
-    text-align: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 2.5rem;
-    justify-content: center;
+    flex-wrap: wrap;         /* Ensure items wrap when there's not enough space */
+    justify-content: center; /* Center the articles inside the container */
+    gap: 2.5rem;             /* Add space between articles */
 }
 
 article {
     display: flex;
-    width: 10rem;
-    justify-content: space-around;
-    gap: 0.5rem;
+    flex-direction: column;  /* Stack the icon and text vertically */
+    align-items: center;     /* Center the content inside each article */
+    justify-content: center; /* Center vertically */
+    gap: 0.5rem;             /* Space between icon and text */
+    width: auto;             /* Remove fixed width */
 }
 
 article .icon {
-    cursor: default;
+    cursor: default;         /* Keep default cursor for icons */
 }
 
 /* Projects Section */

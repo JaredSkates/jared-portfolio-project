@@ -65,6 +65,18 @@
     .about-pic {
         margin-top: 0.5rem;
     }
+    .article-container {
+        display: flex;
+        justify-content: center; /* Keep articles centered */
+        flex-wrap: wrap;
+    }
+
+    article {
+        width: 100%; /* Adjust article width for smaller screens */
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
 
 
 }
@@ -79,6 +91,8 @@
     }
     article {
         font-size: 1rem;
+        width: 90%; /* Adjust the width for small screens */
+        margin: 0 auto;
     }
     footer nav {
         height: fit-content;
